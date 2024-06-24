@@ -1,0 +1,83 @@
+﻿@model T3_Jimenez_Diego.Models.Libro
+@{
+    ViewData["Title"] = "Editar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Editar</h1>
+
+<form method="post" asp-action="Editar">
+    <input asp-for="ID" hidden />
+
+    <div class="border p-3">
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group row">
+            <h2 class="text-info pl-3">Editar Libro</h2>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="titulo" class="form-label">Titulo de Libro</label>
+                    <input asp-for="titulo" class="form-control" />
+                    <span asp-validation-for="titulo" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="autor" class="form-label">Autor</label>
+                    <input asp-for="autor" class="form-control" />
+                    <span asp-validation-for="autor" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="tema" class="form-label">Tema</label>
+                    <input asp-for="tema" class="form-control" />
+                    <span asp-validation-for="tema" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="editorial" class="form-label">Editorial</label>
+                    <input asp-for="editorial" class="form-control" />
+                    <span asp-validation-for="editorial" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="anioPublicacion" class="form-label">Año de publicación</label>
+                    <input asp-for="anioPublicacion" class="form-control" />
+                    <span asp-validation-for="anioPublicacion" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="paginas" class="form-label">Páginas</label>
+                    <input asp-for="paginas" class="form-control" />
+                    <span asp-validation-for="paginas" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="categoria" class="form-label">Categoría</label>
+                    <input asp-for="categoria" class="form-control" />
+                    <span asp-validation-for="categoria" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="d-grid gap-2 d-md-block">
+                <button type="submit" class="btn btn-primary">Editar</button>
+                <a asp-controller="Libro" asp-action="Index" class="btn btn-success">Regresar</a>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
+

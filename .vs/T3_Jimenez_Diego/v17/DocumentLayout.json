@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\criso\\Desktop\\T3_VEGA_JIMENEZ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55E6F8A0-8405-4A4D-A6D4-9D54FA61A523}|T3_Jimenez_Diego\\T3_Jimenez_Diego.csproj|c:\\users\\criso\\desktop\\t3_vega_jimenez\\t3_jimenez_diego\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E6F8A0-8405-4A4D-A6D4-9D54FA61A523}|T3_Jimenez_Diego\\T3_Jimenez_Diego.csproj|solutionrelative:t3_jimenez_diego\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 330,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\criso\\Desktop\\T3_VEGA_JIMENEZ\\T3_Jimenez_Diego\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "T3_Jimenez_Diego\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\criso\\Desktop\\T3_VEGA_JIMENEZ\\T3_Jimenez_Diego\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "T3_Jimenez_Diego\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T02:23:10.273Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
