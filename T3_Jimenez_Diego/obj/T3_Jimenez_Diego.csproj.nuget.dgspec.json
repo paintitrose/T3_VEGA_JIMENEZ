@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\criso\\Desktop\\T3_VEGA_JIMENEZ\\T3_Jimenez_Diego\\T3_Jimenez_Diego.csproj": {}
+    "C:\\Users\\Diego\\Desktop\\Diego\\UPN General\\Actividades de C# Visual Studio\\T3_Jimenez_Diego\\T3_VEGA_JIMENEZ\\T3_Jimenez_Diego\\T3_Jimenez_Diego.csproj": {}
   },
   "projects": {
-    "C:\\Users\\criso\\Desktop\\T3_VEGA_JIMENEZ\\T3_Jimenez_Diego\\T3_Jimenez_Diego.csproj": {
+    "C:\\Users\\Diego\\Desktop\\Diego\\UPN General\\Actividades de C# Visual Studio\\T3_Jimenez_Diego\\T3_VEGA_JIMENEZ\\T3_Jimenez_Diego\\T3_Jimenez_Diego.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\criso\\Desktop\\T3_VEGA_JIMENEZ\\T3_Jimenez_Diego\\T3_Jimenez_Diego.csproj",
+        "projectUniqueName": "C:\\Users\\Diego\\Desktop\\Diego\\UPN General\\Actividades de C# Visual Studio\\T3_Jimenez_Diego\\T3_VEGA_JIMENEZ\\T3_Jimenez_Diego\\T3_Jimenez_Diego.csproj",
         "projectName": "T3_Jimenez_Diego",
-        "projectPath": "C:\\Users\\criso\\Desktop\\T3_VEGA_JIMENEZ\\T3_Jimenez_Diego\\T3_Jimenez_Diego.csproj",
-        "packagesPath": "C:\\Users\\criso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\criso\\Desktop\\T3_VEGA_JIMENEZ\\T3_Jimenez_Diego\\obj\\",
+        "projectPath": "C:\\Users\\Diego\\Desktop\\Diego\\UPN General\\Actividades de C# Visual Studio\\T3_Jimenez_Diego\\T3_VEGA_JIMENEZ\\T3_Jimenez_Diego\\T3_Jimenez_Diego.csproj",
+        "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Diego\\Desktop\\Diego\\UPN General\\Actividades de C# Visual Studio\\T3_Jimenez_Diego\\T3_VEGA_JIMENEZ\\T3_Jimenez_Diego\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\criso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -84,24 +78,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -110,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
